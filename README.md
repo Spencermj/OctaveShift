@@ -72,10 +72,10 @@ def assemble(audioDataList, numChannels=1, sampleRate=44100, verbose=True):
     return new_data 
 ```
 
-This resource answers question 3: how do you select every other frame from an audio sample?
+These resources answer question 3: how do you select every other frame from an audio sample?
 [Cycle Dirac]: https://github.com/echonest/remix/blob/master/tutorial/stretch/cycle_dirac.py
 [Pitch Shifting]: http://www.guitarpitchshifter.com/pitchshifting.html
 [getsample()]: http://echonest.github.io/remix/apidocs/echonest.remix.audio-pysrc.html#AudioData.getsample
 [Echonest]: http://the.echonest.com/
-[AudioDate]: http://echonest.github.io/remix/apidocs/echonest.remix.audio-pysrc.html#AudioData
+[AudioData]: http://echonest.github.io/remix/apidocs/echonest.remix.audio-pysrc.html#AudioData
 [assemble()]: http://echonest.github.io/remix/apidocs/echonest.remix.audio-pysrc.html#assemble
