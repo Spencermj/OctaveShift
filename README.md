@@ -10,6 +10,7 @@ We want to shift the octave of any given audio file.
 1. [Pitch Shifting]
 2. [Cycle Dirac]
 3. [getsample()]
+4. [assemble()]
 
 ### 1. How to pitch shift according to [Pitch Shifting]
 This resource explains to the reader the theory behind semitones, harmonics, and the frequency of notes which are all vital pieces of information for understanding how to shift pitch. More importantly, though, the resource describes how to shift the pitch of an audio sample by an octave. By doubling the length of the audio sample and playing it back at double the speed, you are essentially doubling the frequency of the audio and therefore shifting the audio sample's pitch by an octave. To achieve this effect using [Echonest], I can cut the tempo of the audio sample to double the frames of audio and then I can create a new [AudioData] object containing every other frame. I can do the opposite to lower the octave of an audio sample, first creating a new AudioData object containing every other frame of the sample and then cutting the tempo of the new audio sample in half.
